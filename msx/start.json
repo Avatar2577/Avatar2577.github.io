@@ -1,14 +1,5 @@
 {
-  "name": "Каналы",
-  "content": {
-    "type": "menu",
-    "headline": "Моё IPTV",
-    "items": [
-      {
-        "icon": "tv",
-        "label": "Русские каналы",
-        "data": "https://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Frus.m3u"
-      }
-    ]
-  }
+  "name": "Моё IPTV",
+  "version": "1.0.0",
+  "parameter": "menu:https://avatar2577.github.io/msx/menu.json"
 }
