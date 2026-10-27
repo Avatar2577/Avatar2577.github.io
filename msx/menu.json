@@ -6,7 +6,7 @@
     {
       "icon": "live-tv",
       "label": "Русские каналы",
-      "data": "https://raw.githubusercontent.com/IPTVRU2026/IPTVMIR/main/IPTV_MEGA_PLAYLIST.m3u"
+      "data": "https%3A%2F%2Fraw.githubusercontent.com%2FIPTVRU2026%2FIPTVMIR%2Fmain%2FIPTV_MEGA_PLAYLIST.m3u"
     }
   ]
 }
