@@ -1,12 +1,27 @@
 {
   "name": "Моё IPTV",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "headline": "Моё IPTV",
   "menu": [
+    {
+      "icon": "search",
+      "label": "Поиск по названию",
+      "action": "content:request:interaction:https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbxiQ_6EyKHN1H1TarbUK6AcaZzjHd_4QpwGR_np6Kf_tITck4gwoZvzd2aCTYLeF-tubg/exec/exec?input={INPUT}|search:3|ru|{ico:search} Поиск каналов|||Введите не менее 3 символов|Название канала@http://msx.benzac.de/interaction/input.html"
+    },
+    {
+      "icon": "looks-one",
+      "label": "Канал по номеру",
+      "action": "content:request:interaction:https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbxiQ_6EyKHN1H1TarbUK6AcaZzjHd_4QpwGR_np6Kf_tITck4gwoZvzd2aCTYLeF-tubg/exec/exec?input={INPUT}|search:1|ru|{ico:search} Канал по номеру|||Введите порядковый номер канала|Номер@http://msx.benzac.de/interaction/input.html"
+    },
     {
       "icon": "live-tv",
       "label": "IPTV MEGA",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FIPTVRU2026%2FIPTVMIR%2Fmain%2FIPTV_MEGA_PLAYLIST.m3u"
+    },
+    {
+      "icon": "live-tv",
+      "label": "IPTV MEGA (с категориями)",
+      "data": "user:http://msx.benzac.de/services/m3u.php?type=video&mode=extended&url=https%3A%2F%2Fraw.githubusercontent.com%2FIPTVRU2026%2FIPTVMIR%2Fmain%2FIPTV_MEGA_PLAYLIST.m3u"
     }
   ]
 }
