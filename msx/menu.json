@@ -5,8 +5,8 @@
   "menu": [
     {
       "icon": "live-tv",
-      "label": "Русские каналы",
-      "data": "https%3A%2F%2Fraw.githubusercontent.com%2FIPTVRU2026%2FIPTVMIR%2Fmain%2FIPTV_MEGA_PLAYLIST.m3u"
+      "label": "IPTV MEGA",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FIPTVRU2026%2FIPTVMIR%2Fmain%2FIPTV_MEGA_PLAYLIST.m3u"
     }
   ]
 }
