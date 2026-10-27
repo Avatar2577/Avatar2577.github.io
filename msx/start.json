@@ -1,0 +1,13 @@
+{
+  "name": "Моё IPTV",
+  "content": {
+    "type": "directory",
+    "items": [
+      {
+        "type": "playlist",
+        "name": "Каналы",
+        "url": "https://iptv-org.github.io/iptv/languages/rus.m3u"
+      }
+    ]
+  }
+}
